@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Formularz Kontaktowy</h1>
+    <h3>Marcel Osoliński 3Td</h3>
+</header>
+<form id="form">
+    <label for="name">Imię:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="subject">Temat wiadomości:</label>
+    <select id="subject" name="subject" required>
+        <option value="">Wybierz temat</option>
+        <option value="wsparcie">Wsparcie techniczne</option>
+        <option value="opinie">Opinie</option>
+    </select>
+
+    <div id="dodatkowe"></div>
+
+    <button type="submit">Wyślij</button>
+</form>
+
+<div id="sukces" style="display:none;">Formularz został wysłany!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
