@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    /*line-height: 1.6;*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #024d83;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+h1 {
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 0px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+input {
+    width: 85%;
+    padding: 8px;
+    /*margin-top: 5px;*/
+    margin-left: 5%;
+}
+#subject {
+    width: 85%;
+    padding: 8px;
+    /*margin-top: 5px;*/
+    margin-left: 5%;
+}
+button {
+    margin-top: 20px;
+    /*padding: 8px;*/
+    padding: 10px 15px;
+    text-align: center;
+    align-content: center;
+}
